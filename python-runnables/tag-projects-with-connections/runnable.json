@@ -1,0 +1,38 @@
+{
+    "meta" : {
+        "label" : "Tag projects with connections",
+        "description" : "Adds tags to your projects with the connections being used in each",
+        "category" : "Audit",
+        "icon" : "icon-search"
+    },
+
+    "impersonate" : false,
+    "permissions" : ["WRITE_CONF"],
+
+    "params": [
+      {
+            "name": "allProjects",
+            "label" : "All projects",
+            "description": "Work on all projects",
+            "type" : "BOOLEAN",
+            "mandatory": "true",
+            "defaultValue" : "false"
+        },
+        {
+            "name": "prefix",
+            "label" : "Prefix",
+            "description": "Prefix to add to generated tags",
+            "type" : "STRING",
+            "mandatory": "false",
+            "defaultValue" : "uses-connection-"
+        },
+        {
+            "name": "clobber",
+            "label": "Clobber",
+            "description" : "Remove tags correspodning to not-used-anymore connections",
+            "type": "BOOLEAN",
+            "mandatory" : true,
+            "defaultValue" : true
+        }
+    ]
+}

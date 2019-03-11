@@ -1,0 +1,13 @@
+{
+    "id" : "connections-audit",
+    "version" : "0.0.1",
+    "meta" : {
+        "label" : "Connection audit tools",
+        "description" : "Provides macros and reports about connections",
+        "author" : "Dataiku",
+        "icon" : "icon-code-fork",
+        "licenseInfo" : "Apache Software License",
+        "url" : "https://www.dataiku.com/dss/plugins/info/connections-audit.html",
+        "tags" : ["Administration", "Governance"]
+    }
+}
