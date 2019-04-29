@@ -29,7 +29,7 @@
         {
             "name": "clobber",
             "label": "Clobber",
-            "description" : "Remove tags correspodning to not-used-anymore connections",
+            "description" : "Remove tags corresponding to not-used-anymore connections",
             "type": "BOOLEAN",
             "mandatory" : true,
             "defaultValue" : true
